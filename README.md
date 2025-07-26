@@ -5,7 +5,7 @@ Hecho con OpenSCAD 2025
 
 ``` scad
 
-cantidadUrdimbre = 10;
+cantidadUrdimbre = 11;
 separacion = 3;
 borde = 5;
 grosorRendijas = 1;
