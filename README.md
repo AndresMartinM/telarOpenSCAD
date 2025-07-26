@@ -1,4 +1,4 @@
-# Telar paramétrico
+# Peine de telar paramétrico
 Hecho con OpenSCAD 2025
 
 ![pantallazo del modelo en openscad](./telar.png)
