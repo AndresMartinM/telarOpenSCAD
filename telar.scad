@@ -1,9 +1,9 @@
 
-cantidadUrdimbre = 10;
-separacion = 3;
-borde = 5;
-grosorRendijas = 1;
-alturaRendijas = 8;
+cantidadUrdimbre = 21;
+separacion = 4;
+borde = 8;
+grosorRendijas = 2;
+alturaRendijas = 30;
 
 union(){
     difference(){
