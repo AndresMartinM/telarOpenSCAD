@@ -7,8 +7,8 @@ alturaRendijas = 8;
 
 union(){
     difference(){
-        cube([borde*2+separacion*cantidadUrdimbre+grosorRendijas,1,alturaRendijas+borde*2]);
-        for(i=[0:cantidadUrdimbre]){
+        cube([borde*2+separacion*(cantidadUrdimbre-1)+grosorRendijas,1,alturaRendijas+borde*2]);
+        for(i=[0:(cantidadUrdimbre-1)]){
             translate([i*separacion + borde,-0.5,-0.5]) {
             if (i % 2 == 0) cube([grosorRendijas,3,grosorRendijas]);
                 else cube([grosorRendijas,3,alturaRendijas]);
@@ -18,8 +18,8 @@ union(){
 }
 mirror([0,0,1]){
     difference(){
-        cube([borde*2+separacion*cantidadUrdimbre+grosorRendijas,1,alturaRendijas+borde*2]);
-        for(i=[0:cantidadUrdimbre]){
+        cube([borde*2+separacion*(cantidadUrdimbre-1)+grosorRendijas,1,alturaRendijas+borde*2]);
+        for(i=[0:(cantidadUrdimbre-1)]){
             translate([i*separacion + borde,-0.5,-0.5]) {
             if (i % 2 == 0) cube([grosorRendijas,3,grosorRendijas]);
                 else cube([grosorRendijas,3,alturaRendijas]);
